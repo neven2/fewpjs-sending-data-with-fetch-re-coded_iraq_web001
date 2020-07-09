@@ -7,8 +7,8 @@ function submitData(name,email){
     "Accept": "application/json"
   },
   body: JSON.stringify({
-    name: "neven",
-    email: "neven2225@gmail.com"
+    name: "Steve",
+    email: "steve@steve.com"
   })
 })
 .then(res => res.json())
